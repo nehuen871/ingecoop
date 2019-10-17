@@ -16,6 +16,9 @@
     "express-layout": "^0.1.0",
     "express-session": "^1.15.6",
     "express-validator": "^4.3.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "3.2.0",
     "helmet": "^3.10.0",
     "http-errors": "~1.6.3",
     "jade": "^1.11.0",
@@ -23,6 +26,22 @@
     "multer": "^1.3.0",
     "mysql": "^2.15.0",
     "nodemon": "^1.19.3",
-    "pug": "^2.0.4"
+    "pug": "^2.0.4",
+    "react-bootstrap-table": "^4.3.1"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
